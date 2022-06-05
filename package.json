@@ -15,7 +15,8 @@
     "cli:args": "node src/cli/args -- --propName value1 --prop2Name value2",
     "modules": "node src/modules/cjsToEsm.mjs",
     "hash": "node src/hash/calcHash.js",
-    "streams:read": "node src/streams/read.js"
+    "streams:read": "node src/streams/read.js",
+    "streams:write": "node src/streams/write.js"
   },
   "repository": {
     "type": "git",
